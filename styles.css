@@ -14,6 +14,26 @@ html {
   color: #000;
 }
 
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 15;
+}
+
+.main__title {
+  font-size: 70%;
+  padding: 15px;
+}
+
+.span__subtitle {
+  padding: 1rem;
+  font-size: 2em;
+}
+
 img {
   border-radius: 20%;
   padding: 1.2rem;
@@ -26,9 +46,11 @@ img {
 }
 
 .section__button-view {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
   border: none;
   height: 40px;
-  border-radius: 0% 40% 40% 40%;
+  border-radius: 0 1.2rem 1.2rem 1.2rem;
   background-color: var(--details-color);
   color: white;
   font-size: 0.7 rem;
